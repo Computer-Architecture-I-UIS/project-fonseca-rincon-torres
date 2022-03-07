@@ -91,7 +91,7 @@ Durante la generación del binario de simulación para RvfpgaSim, se presentó e
 <p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/error.png" alt="modulo" width="400"/></p>
 
 Sin embargo, se logró solucionar y se visualiza la salida de GTkwave para el caso binario:
-<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/gtkwave.png" alt="modulo" width="400"/></p>
+<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/gtkwave.jpeg" alt="modulo" width="400"/></p>
 
 # Conclusiones
 
