@@ -60,7 +60,9 @@ Para la ejecución de este laboratorio se requieren las siguientes intalaciones:
 *Procedimiento del laboratorio*
 
 # Conclusiones
-- La versión de vivado sí importa
+
+- Este laboratorio explica el paso a paso de construcción de un Soc, visualizando las conexiones entre CPU, las interconexiones y los periféricos.
+- La versión de vivado sí importa, ya que de otra forma no permite las conexiones de buses de datos.
 
 # Referencias
 - https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/
