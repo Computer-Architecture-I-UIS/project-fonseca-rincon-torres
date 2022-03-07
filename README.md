@@ -1,4 +1,4 @@
-# <p align= "center">#Proyecto arquitectura de computadores I.</p>
+#<p align= "center">Proyecto arquitectura de computadores I.</p>
 
 Hecho por Karen Fonseca, David Torres y Silvia Rincón.
 
@@ -6,16 +6,34 @@ RVfpga-SoC How to go from a RISC-V Core to a RISC-V SoC? Es un curso gratuito br
 
 
 ## Laboratorio 1: Introduction to RVfpga-SoC
-En la primeraparte del RVfpga-SoC se muestra cómo construir un subconjunto de SweRVolfX SoC desde cero utilizando bloques de construcción como el núcleo SweRV, las memorias y los periféricos. Para acceder al curso, es necesario crear una cuenta. Una vez logeados a nuestro correo personla será enviado un link de descarga para acceder a los contenidos del curso. El Primer laboratorio está constituido por
+En la primeraparte del RVfpga-SoC se muestra cómo construir un subconjunto de SweRVolfX SoC desde cero utilizando bloques de construcción como el núcleo SweRV, las memorias y los periféricos. Para acceder al curso, es necesario crear una cuenta. Una vez logeados a nuestro correo personla será enviado un link de descarga para acceder a los contenidos del curso. 
 *Procedimiento del laboratorio*
+El Primer laboratorio está constituido por:
+
+Se conectan los IFU (Instruction Fetch Unit), LSU (Load Store Unit) y SB (Store Byte) para empezar a crear las conexiones jerárquicas:
 
 <img src="imagenes/7.jpeg" alt="modulo" width="700"/>
+
+Luego se hacen las conexiones externas de RAM(DDR), CLK(Clock), RST(Reset), y DMI(Debug Module Interface):
+
 <img src="imagenes/4.jpeg" alt="modulo" width="700"/>
+
+Las conexiones de RST y CLK:
+
 <img src="imagenes/2.jpeg" alt="modulo" width="700"/>
+
+RAM en pines exteriores:
+
 <img src="imagenes/5.jpeg" alt="modulo" width="700"/>
 <img src="imagenes/6.jpeg" alt="modulo" width="700"/>
+
+Se agregan y configuran los códigos:
+
 <img src="imagenes/3.jpeg" alt="modulo" width="700"/>
 <img src="imagenes/1.jpeg" alt="modulo" width="700"/>
+
+Se copila y genera el Bitstream:
+
 <img src="imagenes/8.jpeg" alt="modulo" width="700"/>
 <img src="imagenes/9.jpeg" alt="modulo" width="700"/>
 
