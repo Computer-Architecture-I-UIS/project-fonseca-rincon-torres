@@ -23,5 +23,7 @@
 *Procedimiento del laboratorio*
 
 # Conclusiones
+- La versión de vivado sí importa
 
 # Referencias
+- https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/
