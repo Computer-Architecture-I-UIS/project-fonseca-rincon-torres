@@ -3,7 +3,7 @@
 **Laboratorio 1**
 
 *Instalación*
-<img src="imagenes/1.jpeg" alt="modulo" width="400"/>
+<img src="imagenes/1.jpeg" alt="modulo" width="500"/>
 
 *Procedimiento del laboratorio*
 
