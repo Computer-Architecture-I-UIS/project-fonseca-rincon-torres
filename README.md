@@ -89,10 +89,15 @@ A continuación, generamos el binario para RVfpgaSim, mediante el uso de la traz
 
 Durante la generación del binario de simulación para RvfpgaSim, se presentó el presente error:
 <p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/error.png" alt="modulo" width="400"/></p>
+
 # Conclusiones
 
 - Este laboratorio explica el paso a paso de construcción de un Soc, visualizando las conexiones entre CPU, las interconexiones y los periféricos.
 - La versión de vivado sí importa, ya que de otra forma no permite las conexiones de buses de datos.
+- La generación de la traza permite la visualización en GTkwave, esto ocurre a partir de que en el lenguaje C o de ensamblador, se procesa primero el archivo de origen. El ensamblador / C analiza su archivo fuente, lo verifica en busca de errores de sintaxis y lo traduce a su forma binaria equivalente.
 
 # Referencias
 - https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/
+- https://github.com/chipsalliance/Cores-SweRVolf#swervolf
+- https://riscv.org/news/2021/09/new-release-of-swervolf-risc-v-soc-project-aims-for-lower-barrier-to-entry-gareth-halfacree-the-register-2/
+- https://university.imgtec.com/wp-content/uploads/2021/10/UPDATE-of-RV-I-Website-listing-for-RVfpga-1.pdf
