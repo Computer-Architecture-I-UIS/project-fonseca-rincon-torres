@@ -1,6 +1,7 @@
 # <p align= "center">#Proyecto arquitectura de computadores I.</p>
 
 Hecho por Karen Fonseca, David Torres y Silvia Rincón.
+
 RVfpga-SoC How to go from a RISC-V Core to a RISC-V SoC? Es un curso gratuito brindado por _Imagination University Programme_ que muestra cómo utilizar RVfpgaNexys y RVfpgaSim, del set de instrucciones RISC-V con el objetivo de ejecutar programas y ampliar el sistema añadiendo periféricos (RVfpga Labs 1-10). Permite afianzar conceptos dentro de la arquitectura del procesador, ubicando los modulos de Instructions fletch, Instruction decode, E. Memory y  Write back. Este curso permite explorar el núcleo y el sistema de memoria mediante la ejecución de simulaciones, la medición del rendimiento, la adición de instrucciones y la modificación del sistema de memoria utiliando herramientas de RISC-V (compiladores y compiladores y depuradores) y simuladores, el simulador HDL Verilator, y el simulador del conjunto de instrucciones Whisper (Whisper) de Western Digital.
 
 
