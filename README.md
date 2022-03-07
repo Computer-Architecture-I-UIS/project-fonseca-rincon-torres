@@ -90,6 +90,9 @@ A continuación, generamos el binario para RVfpgaSim, mediante el uso de la traz
 Durante la generación del binario de simulación para RvfpgaSim, se presentó el presente error:
 <p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/error.png" alt="modulo" width="400"/></p>
 
+Sin embargo, se logró solucionar y se visualiza la salida de GTkwave para el caso binario:
+<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/gtkwave.png" alt="modulo" width="400"/></p>
+
 # Conclusiones
 
 - Este laboratorio explica el paso a paso de construcción de un Soc, visualizando las conexiones entre CPU, las interconexiones y los periféricos.
