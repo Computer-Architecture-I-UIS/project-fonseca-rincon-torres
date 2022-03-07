@@ -75,11 +75,16 @@ El diseño estpa compuesto por tres módulo:
 ● Ram (axi_mem_wrapper.v): Este es el módulo de memoria.
 ● dmi_wrapper (dmi_wrapper.v): Esta es la interfaz del módulo de depuración.
 
-A partir de la ubicación del archivo en la carpeta, procedimos a generar el binario de simulación para _RvfpgaSim_. El directorio 
-```[RVfpgaSoCPath]/RVfpgaSoC/Labs/LabResources/Lab2/verilatorSIM 
+A partir de la ubicación del archivo en la carpeta, procedimos a generar el binario de simulación para _RvfpgaSim_. El directorio:
+
 ```
+[RVfpgaSoCPath]/RVfpgaSoC/Labs/LabResources/Lab2/verilatorSIM 
+```
+
 contiene el Makefile y el script (swervolf_0.7.vc) para generar el binario del simulador para RVfpgaSim. El script contiene información para que Verilator sepa, entre otras cosas, dónde encontrar las fuentes para el SoC, que en nuestro caso están disponibles en:
-```[RVfpgaSoCPath]/RVfpgaSoC/Labs/LabResources/Lab2/src
+
+```
+[RVfpgaSoCPath]/RVfpgaSoC/Labs/LabResources/Lab2/src
 ```
 Una vez generado el binario del simulador (Vrvfpgasim), lo utilizarás dentro de PlatformIO para generar la traza de simulación (trace.vcd) del programa AL_Operations.
 
