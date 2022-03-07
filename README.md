@@ -1,4 +1,4 @@
-<p align= "center"> #Proyecto arquitectura de computadores I.</p>
+<p align= "center"> ## Proyecto arquitectura de computadores I.</p>
 
 Hecho por Karen Fonseca, David Torres y Silvia Rincón.
 
