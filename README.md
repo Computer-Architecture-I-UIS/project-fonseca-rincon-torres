@@ -48,9 +48,12 @@ Se copila y genera el Bitstream:
 Para esta práctica de Laboratorio, partimos de los resultados en la primera práctica. En este laboratorio se muestra la ejecución del modulo "BD.v" del Lab1 utilizando lenguaje C o lenguaje de ensamblador en el subconjunto SweRVolfX que creamos en el laboratorio 1 mediante el uso de la herramienta de diseño Vivado Block. 
 La ejecución se realiza mediante Verilator debido a que no se contaba, de forma física, con la placa Nexys A7. 
 
-Para realizar este laboratorio, usaremos el archivo Verilog "BD.v" del Diseño de Bloques y el archivo de bits "rvfpga.bit" que fue generado en el Laboratorio 1 usando el Diseño de Bloque de Vivado. 
+Para realizar este laboratorio, usaremos el archivo Verilog "BD.v" del Diseño de Bloques y el archivo de bits "rvfpga.bit" que fue generado en el Laboratorio 1 usando el Diseño de Bloque de Vivado. Para ello partimos de la ruta:
+
+<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/bd.png" alt="modulo" width="400"/></p>
 
 En este laboratorio, se generan los binarios de simulación para RVfpgaSim, que se utilizarán posteriormente para crear la traza de simulación de un programa de ejemplo. También analizaremos la traza de simulación utilizando GTKWave.
+
 Como un paso opcional, mostraremos cómo descargar el RVfpgaNexys, como se define en el flujo de bits que creamos en el Laboratorio 1, en nuestra placa Nexys A7 usando PlatformIO y luego depurar un programa de ejemplo usando PlatformIO. Este paso es opcional pero recomendado.
 
 *Instalación*
@@ -62,6 +65,30 @@ Para la ejecución de este laboratorio se requieren las siguientes intalaciones:
 
 *Procedimiento del laboratorio*
 
+Para ello, partimos del archivo de diseño. Durante la primera práctica, se realizaron las conexiones de pines extremos. Estas conexiones externas del módulo "Block Design" se conectan en el módulo superior "rvfpgasim" con otros módulos. Por ejemplo, las conexiones externas _DMI_ en el módulo "Block Design" están conectadas con el módulo _dmi_wrapper_ y las conexiones externas "RAM" del módulo "Block Design" están conectadas con el módulo de memoria.
+
+El diseño estpa compuesto por tres módulo:
+
+<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/estructura.png" alt="modulo" width="400"/></p>
+
+● Diseño en bloque (BD.v): Este es el módulo del SoC que hemos creado utilizando el Diseño en Bloque de Vivado.
+● Ram (axi_mem_wrapper.v): Este es el módulo de memoria.
+● dmi_wrapper (dmi_wrapper.v): Esta es la interfaz del módulo de depuración.
+
+A partir de la ubicación del archivo en la carpeta, procedimos a generar el binario de simulación para _RvfpgaSim_. El directorio 
+```[RVfpgaSoCPath]/RVfpgaSoC/Labs/LabResources/Lab2/verilatorSIM 
+```
+contiene el Makefile y el script (swervolf_0.7.vc) para generar el binario del simulador para RVfpgaSim. El script contiene información para que Verilator sepa, entre otras cosas, dónde encontrar las fuentes para el SoC, que en nuestro caso están disponibles en:
+```[RVfpgaSoCPath]/RVfpgaSoC/Labs/LabResources/Lab2/src
+```
+Una vez generado el binario del simulador (Vrvfpgasim), lo utilizarás dentro de PlatformIO para generar la traza de simulación (trace.vcd) del programa AL_Operations.
+
+
+A continuación, generamos el binario para RVfpgaSim, mediante el uso de la traza generada, realizamos la simulación desde PlatformIO
+<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/trace.png" alt="modulo" width="400"/></p>
+
+Durante la generación del binario de simulación para RvfpgaSim, se presentó el presente error:
+<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/error.png" alt="modulo" width="400"/></p>
 # Conclusiones
 
 - Este laboratorio explica el paso a paso de construcción de un Soc, visualizando las conexiones entre CPU, las interconexiones y los periféricos.
