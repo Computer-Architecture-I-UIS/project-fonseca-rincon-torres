@@ -16,30 +16,30 @@ El Primer laboratorio está constituido por:
 
 Se conectan los IFU (Instruction Fetch Unit), LSU (Load Store Unit) y SB (Store Byte) para empezar a crear las conexiones jerárquicas:
 
-<img src="imagenes/7.jpeg" alt="modulo" width="700"/>
+<p align= "center"><img src="imagenes/7.jpeg" alt="modulo" width="700"/></p>
 
 Luego se hacen las conexiones externas de RAM(DDR), CLK(Clock), RST(Reset), y DMI(Debug Module Interface):
 
-<img src="imagenes/4.jpeg" alt="modulo" width="700"/>
+<p align= "center"><img src="imagenes/4.jpeg" alt="modulo" width="700"/></p>
 
 Las conexiones de RST y CLK:
 
-<img src="imagenes/2.jpeg" alt="modulo" width="700"/>
+<p align= "center"><img src="imagenes/2.jpeg" alt="modulo" width="700"/></p>
 
 RAM en pines exteriores:
 
-<img src="imagenes/5.jpeg" alt="modulo" width="700"/>
-<img src="imagenes/6.jpeg" alt="modulo" width="700"/>
+<p align= "center"><img src="imagenes/5.jpeg" alt="modulo" width="700"/></p>
+<p align= "center"><img src="imagenes/6.jpeg" alt="modulo" width="700"/></p>
 
 Se agregan y configuran los códigos:
 
-<img src="imagenes/3.jpeg" alt="modulo" width="700"/>
-<img src="imagenes/1.jpeg" alt="modulo" width="700"/>
+<p align= "center"><img src="imagenes/3.jpeg" alt="modulo" width="700"/></p>
+<p align= "center"><img src="imagenes/1.jpeg" alt="modulo" width="700"/></p>
 
 Se copila y genera el Bitstream:
 
-<img src="imagenes/8.jpeg" alt="modulo" width="700"/>
-<img src="imagenes/9.jpeg" alt="modulo" width="700"/>
+<p align= "center"><img src="imagenes/8.jpeg" alt="modulo" width="700"/></p>
+<p align= "center"><img src="imagenes/9.jpeg" alt="modulo" width="700"/></p>
 
 
 
