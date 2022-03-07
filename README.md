@@ -44,9 +44,12 @@ Se copila y genera el Bitstream:
 
 
 ## Laboratorio 2: Running Software on RVfpga-SoC
+
 Para esta práctica de Laboratorio, partimos de los resultados en la primera práctica. En este laboratorio se muestra la ejecución del modulo "BD.v" del Lab1 utilizando lenguaje C o lenguaje de ensamblador en el subconjunto SweRVolfX que creamos en el laboratorio 1 mediante el uso de la herramienta de diseño Vivado Block. 
 La ejecución se realiza mediante Verilator debido a que no se contaba, de forma física, con la placa Nexys A7. 
+
 Para realizar este laboratorio, usaremos el archivo Verilog "BD.v" del Diseño de Bloques y el archivo de bits "rvfpga.bit" que fue generado en el Laboratorio 1 usando el Diseño de Bloque de Vivado. 
+
 En este laboratorio, se generan los binarios de simulación para RVfpgaSim, que se utilizarán posteriormente para crear la traza de simulación de un programa de ejemplo. También analizaremos la traza de simulación utilizando GTKWave.
 Como un paso opcional, mostraremos cómo descargar el RVfpgaNexys, como se define en el flujo de bits que creamos en el Laboratorio 1, en nuestra placa Nexys A7 usando PlatformIO y luego depurar un programa de ejemplo usando PlatformIO. Este paso es opcional pero recomendado.
 
