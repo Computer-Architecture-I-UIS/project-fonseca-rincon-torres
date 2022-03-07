@@ -1,8 +1,6 @@
 <p align= "center"> 
-
 ## Proyecto arquitectura de computadores I.
-
- </p>
+</p>
 
 
 ## Laboratorio 1: Introduction to RVfpga-SoC
