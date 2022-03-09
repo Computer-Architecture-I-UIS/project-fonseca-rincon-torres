@@ -33,8 +33,8 @@ RAM en pines exteriores:
 
 Se agregan y configuran los códigos:
 
-<p align= "center"><img src="imagenes/3.jpeg" alt="modulo" width="700"/></p>
-<p align= "center"><img src="imagenes/1.jpeg" alt="modulo" width="700"/></p>
+<p align= "center"><img src="imagenes/agrega.jpeg" alt="modulo" width="700"/></p>
+<p align= "center"><img src="imagenes/agrega1.jpeg" alt="modulo" width="700"/></p>
 
 Se copila y genera el Bitstream:
 
