@@ -20,7 +20,7 @@ Se conectan los IFU (Instruction Fetch Unit), LSU (Load Store Unit) y SB (Store 
 
 Luego se hacen las conexiones externas de RAM(DDR), CLK(Clock), RST(Reset), y DMI(Debug Module Interface):
 
-<p align= "center"><img src="imagenes/4.jpeg" alt="modulo" width="700"/></p>
+<p align= "center"><img src="imagenes/4.jpeg" alt="modulo" width="900"/></p>
 
 Las conexiones de RST y CLK:
 
