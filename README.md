@@ -15,7 +15,7 @@ El Primer laboratorio está constituido por:
 
 Se conectan los IFU (Instruction Fetch Unit), LSU (Load Store Unit) y SB (Store Byte) para empezar a crear las conexiones jerárquicas:
 
-<p align= "center"><img src="imagenes/7.jpeg" alt="modulo" width="700"/></p>
+<p align= "center"><img src="imagenes/primer.jpeg" alt="modulo" width="700"/></p>
 
 Luego se hacen las conexiones externas de RAM(DDR), CLK(Clock), RST(Reset), y DMI(Debug Module Interface):
 
