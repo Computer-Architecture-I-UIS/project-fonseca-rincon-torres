@@ -59,14 +59,14 @@ En este laboratorio, se generan los binarios de simulación para RVfpgaSim, que 
 
 Como un paso opcional, mostraremos cómo descargar el RVfpgaNexys, como se define en el flujo de bits que creamos en el Laboratorio 1, en nuestra placa Nexys A7 usando PlatformIO y luego depurar un programa de ejemplo usando PlatformIO. Este paso es opcional pero recomendado.
 
- 1.**Instalación**
+ **1. Instalación**
 Para la ejecución de este laboratorio se requieren las siguientes intalaciones:
 ● Installation of Visual Studio Code (VScode)
 ● PlatformIO
 ● Verilator version 4.106
 ● GTKWave
 
- 2.**Procedimiento del laboratorio**
+ **2. Procedimiento del laboratorio**
 
 Para ello, partimos del archivo de diseño. Durante la primera práctica, se realizaron las conexiones de pines extremos. Estas conexiones externas del módulo "Block Design" se conectan en el módulo superior "rvfpgasim" con otros módulos. Por ejemplo, las conexiones externas _DMI_ en el módulo "Block Design" están conectadas con el módulo _dmi_wrapper_ y las conexiones externas "RAM" del módulo "Block Design" están conectadas con el módulo de memoria.
 
