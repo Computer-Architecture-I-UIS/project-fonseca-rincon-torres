@@ -60,6 +60,7 @@ En este laboratorio, se generan los binarios de simulación para RVfpgaSim, que 
 Como un paso opcional, mostraremos cómo descargar el RVfpgaNexys, como se define en el flujo de bits que creamos en el Laboratorio 1, en nuestra placa Nexys A7 usando PlatformIO y luego depurar un programa de ejemplo usando PlatformIO. Este paso es opcional pero recomendado.
 
  **1. Instalación**
+ 
 Para la ejecución de este laboratorio se requieren las siguientes intalaciones:
 ● Installation of Visual Studio Code (VScode)
 ● PlatformIO
