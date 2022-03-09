@@ -51,7 +51,7 @@ La ejecución se realiza mediante Verilator debido a que no se contaba, de forma
 
 Para realizar este laboratorio, usaremos el archivo Verilog "BD.v" del Diseño de Bloques y el archivo de bits "rvfpga.bit" que fue generado en el Laboratorio 1 usando el Diseño de Bloque de Vivado. Para ello partimos de la ruta:
 
-<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/bd.png" alt="modulo" width="400"/></p>
+<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/bd.png" alt="modulo" width="800"/></p>
 
 En este laboratorio, se generan los binarios de simulación para RVfpgaSim, que se utilizarán posteriormente para crear la traza de simulación de un programa de ejemplo. También analizaremos la traza de simulación utilizando GTKWave.
 
@@ -91,10 +91,10 @@ Una vez generado el binario del simulador (Vrvfpgasim), lo utilizarás dentro de
 
 
 A continuación, generamos el binario para RVfpgaSim, mediante el uso de la traza generada, realizamos la simulación desde PlatformIO
-<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/trace.png" alt="modulo" width="400"/></p>
+<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/trace.png" alt="modulo" width="800"/></p>
 
 Durante la generación del binario de simulación para RvfpgaSim, se presentó el presente error:
-<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/error.png" alt="modulo" width="400"/></p>
+<p align= "center"><img src="https://github.com/Computer-Architecture-I-UIS/project-fonseca-rincon-torres/blob/main/imagenes/error.png" alt="modulo" width="800"/></p>
 
 Sin embargo, se logró solucionar y se visualiza la salida de GTkwave para el caso binario:
 <p align= "center"><img src="imagenes/simulacion.jpeg" alt="modulo" width="700"/></p>
