@@ -14,7 +14,7 @@ Universidad Industrial de Santander
 ## Laboratorio 1: Introduction to RVfpga-SoC
 En la primera parte del RVfpga-SoC se muestra cómo construir un subconjunto de SweRVolfX SoC desde cero utilizando bloques de construcción como el núcleo SweRV, las memorias y los periféricos. Para acceder al curso, es necesario crear una cuenta. Una vez logeados a nuestro correo personla será enviado un link de descarga para acceder a los contenidos del curso. 
 
-# *Procedimiento del laboratorio*
+**Procedimiento del laboratorio**
 El Primer laboratorio está constituido por:
 
 Se conectan los IFU (Instruction Fetch Unit), LSU (Load Store Unit) y SB (Store Byte) para empezar a crear las conexiones jerárquicas:
@@ -59,14 +59,14 @@ En este laboratorio, se generan los binarios de simulación para RVfpgaSim, que 
 
 Como un paso opcional, mostraremos cómo descargar el RVfpgaNexys, como se define en el flujo de bits que creamos en el Laboratorio 1, en nuestra placa Nexys A7 usando PlatformIO y luego depurar un programa de ejemplo usando PlatformIO. Este paso es opcional pero recomendado.
 
-# 1.*Instalación*
+ 1.**Instalación**
 Para la ejecución de este laboratorio se requieren las siguientes intalaciones:
 ● Installation of Visual Studio Code (VScode)
 ● PlatformIO
 ● Verilator version 4.106
 ● GTKWave
 
-# 2.*Procedimiento del laboratorio*
+ 2.**Procedimiento del laboratorio**
 
 Para ello, partimos del archivo de diseño. Durante la primera práctica, se realizaron las conexiones de pines extremos. Estas conexiones externas del módulo "Block Design" se conectan en el módulo superior "rvfpgasim" con otros módulos. Por ejemplo, las conexiones externas _DMI_ en el módulo "Block Design" están conectadas con el módulo _dmi_wrapper_ y las conexiones externas "RAM" del módulo "Block Design" están conectadas con el módulo de memoria.
 
