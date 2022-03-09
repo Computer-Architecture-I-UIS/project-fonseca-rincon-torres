@@ -58,14 +58,14 @@ En este laboratorio, se generan los binarios de simulación para RVfpgaSim, que 
 
 Como un paso opcional, mostraremos cómo descargar el RVfpgaNexys, como se define en el flujo de bits que creamos en el Laboratorio 1, en nuestra placa Nexys A7 usando PlatformIO y luego depurar un programa de ejemplo usando PlatformIO. Este paso es opcional pero recomendado.
 
-# *Instalación*
+# 1.*Instalación*
 Para la ejecución de este laboratorio se requieren las siguientes intalaciones:
 ● Installation of Visual Studio Code (VScode)
 ● PlatformIO
 ● Verilator version 4.106
 ● GTKWave
 
-# *Procedimiento del laboratorio*
+# 2.*Procedimiento del laboratorio*
 
 Para ello, partimos del archivo de diseño. Durante la primera práctica, se realizaron las conexiones de pines extremos. Estas conexiones externas del módulo "Block Design" se conectan en el módulo superior "rvfpgasim" con otros módulos. Por ejemplo, las conexiones externas _DMI_ en el módulo "Block Design" están conectadas con el módulo _dmi_wrapper_ y las conexiones externas "RAM" del módulo "Block Design" están conectadas con el módulo de memoria.
 
@@ -102,8 +102,8 @@ Sin embargo, se logró solucionar y se visualiza la salida de GTkwave para el ca
 
 # Conclusiones
 
-- Este laboratorio explica el paso a paso de construcción de un Soc, visualizando las conexiones entre CPU, las interconexiones y los periféricos.
-- La versión de vivado sí importa, ya que de otra forma no permite las conexiones de buses de datos.
+- Este laboratorio explica el paso a paso de conexión de un Soc, visualizando las conexiones entre CPU, las interconexiones y los periféricos.
+- La versión de vivado sí importa, ya que de otra forma no permite las conexiones de buses de datos, la versión gratuita puede ser la culpable del mismo.
 - La generación de la traza permite la visualización en GTkwave, esto ocurre a partir de que en el lenguaje C o de ensamblador, se procesa primero el archivo de origen. El ensamblador / C analiza su archivo fuente, lo verifica en busca de errores de sintaxis y lo traduce a su forma binaria equivalente.
 
 # Referencias
