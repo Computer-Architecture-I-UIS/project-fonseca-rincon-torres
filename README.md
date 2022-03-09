@@ -10,8 +10,9 @@ Hecho por Karen Fonseca, David Torres y Silvia Rincón.
 <p align= "center">Imagen de referencia de las conexiones en la guía de instrucciones de laboratorio.</p>
 
 ## Laboratorio 1: Introduction to RVfpga-SoC
-En la primeraparte del RVfpga-SoC se muestra cómo construir un subconjunto de SweRVolfX SoC desde cero utilizando bloques de construcción como el núcleo SweRV, las memorias y los periféricos. Para acceder al curso, es necesario crear una cuenta. Una vez logeados a nuestro correo personla será enviado un link de descarga para acceder a los contenidos del curso. 
-*Procedimiento del laboratorio*
+En la primera parte del RVfpga-SoC se muestra cómo construir un subconjunto de SweRVolfX SoC desde cero utilizando bloques de construcción como el núcleo SweRV, las memorias y los periféricos. Para acceder al curso, es necesario crear una cuenta. Una vez logeados a nuestro correo personla será enviado un link de descarga para acceder a los contenidos del curso. 
+
+#*Procedimiento del laboratorio*
 El Primer laboratorio está constituido por:
 
 Se conectan los IFU (Instruction Fetch Unit), LSU (Load Store Unit) y SB (Store Byte) para empezar a crear las conexiones jerárquicas:
@@ -63,7 +64,7 @@ Para la ejecución de este laboratorio se requieren las siguientes intalaciones:
 ● Verilator version 4.106
 ● GTKWave
 
-*Procedimiento del laboratorio*
+#*Procedimiento del laboratorio*
 
 Para ello, partimos del archivo de diseño. Durante la primera práctica, se realizaron las conexiones de pines extremos. Estas conexiones externas del módulo "Block Design" se conectan en el módulo superior "rvfpgasim" con otros módulos. Por ejemplo, las conexiones externas _DMI_ en el módulo "Block Design" están conectadas con el módulo _dmi_wrapper_ y las conexiones externas "RAM" del módulo "Block Design" están conectadas con el módulo de memoria.
 
